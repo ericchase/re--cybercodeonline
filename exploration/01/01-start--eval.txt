@@ -1,4 +1,4 @@
-this code freezes the gane while the debugger is open 
+this code freezes the game while the debugger is open 
 
 => const st=Date.now();debugger;if(Date.now()-st>200){while(!0){console.warn('a')}}
 

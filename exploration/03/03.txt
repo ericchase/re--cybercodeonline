@@ -1,0 +1,9 @@
+next, the console is being cleared repeatedly
+
+this seems like another timer
+
+a quick search in dev-tools for console.clear shows us a timer in main.js
+
+https://cybercodeonline.com/static/js/main.2e0dce7f.js
+
+this is another quick download, comment out the offending lines, and serve
