@@ -37942,7 +37942,9 @@
                     (i *=
                       e.getStat(t.getGang().getStrongStat().toString()) + 1),
                     (i = Math.round(i)),
-                    e.decreaseHealth(i, { isCreature: !0 })
+                    //// RE: Decrease health by only 1?
+                    //e.decreaseHealth(i, { isCreature: !0 })
+                    e.decreaseHealth(1, { isCreature: !0 })
                       ? (r.push({ t: p.H.ENEMY_ATTACK, v: i, c: a ? 1 : 0 }),
                         { status: "continue" })
                       : { status: "playerDead" }
@@ -38060,10 +38062,9 @@
                     var w = e.onWeaponDurability(n);
                     m.push.apply(m, (0, i.Z)(w));
                   }
-                  //// RE: Changing enemy health to 1 or making their damage 1 should suffice
                   return {
                     enemyIsDead: t.health <= 0,
-                    playerDmg: 1,
+                    playerDmg: f,
                     errors: m,
                     messages: d,
                     usedItems: g,
