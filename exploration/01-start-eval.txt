@@ -1,0 +1,10 @@
+this code freezes the gane while the debugger is open 
+
+=> const st=Date.now();debugger;if(Date.now()-st>200){while(!0){console.warn('a')}}
+
+
+source uri: https://cybercodeonline.com/static/js/AppLayout.0ec11b34.chunk.js
+line number: 31445
+
+=> the code is ran under a function bonk()
+=> the above code is stored as a piece of string(?) as variable 'v' which runs in an eval() under a setInterval()
