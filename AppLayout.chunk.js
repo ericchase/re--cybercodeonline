@@ -38060,9 +38060,10 @@
                     var w = e.onWeaponDurability(n);
                     m.push.apply(m, (0, i.Z)(w));
                   }
+                  //// RE: Changing enemy health to 1 or making their damage 1 should suffice
                   return {
                     enemyIsDead: t.health <= 0,
-                    playerDmg: f,
+                    playerDmg: 1,
                     errors: m,
                     messages: d,
                     usedItems: g,
