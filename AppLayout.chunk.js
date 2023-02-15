@@ -38062,9 +38062,10 @@
                     var w = e.onWeaponDurability(n);
                     m.push.apply(m, (0, i.Z)(w));
                   }
+                  //// RE: Try to multiple player? damage by 100
                   return {
                     enemyIsDead: t.health <= 0,
-                    playerDmg: f,
+                    playerDmg: f*100,
                     errors: m,
                     messages: d,
                     usedItems: g,
