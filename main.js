@@ -18682,7 +18682,7 @@
         },
         w = document.getElementById("root");
       (0, t.s)(w).render((0, s.jsx)(_, {})),
-        (console.log = function () {}),
+        (console.log = function () {})
         //// RE: We don't want the console to be cleared.
         // setInterval(function () {
         //   console.clear();
