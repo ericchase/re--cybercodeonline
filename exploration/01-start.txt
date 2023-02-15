@@ -1,0 +1,5 @@
+https://cybercodeonline.com/tabs/map
+
+attempting to open dev-tools results in infinite `debugger` statement loop
+
+first step is to figure out where this `debugger` statement is coming from
