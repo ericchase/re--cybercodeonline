@@ -1,0 +1,9 @@
+checking to see if the debugger loop is on a timer
+
+by making a bookmarklet to clear timers and clearing the timers, the debugger loop no longer starts when opening dev tools
+
+bookmarklet info:
+
+Clear Timers
+
+javascript: (function () { let timeout = setTimeout(";"); for (var i = 0; i <= timeout; i++) { clearTimeout(i); } let interval = setInterval(";"); for (var i = 0; i <= interval; i++) { clearInterval(i); } })();
