@@ -1,0 +1,7 @@
+we know the offending code comes from https://cybercodeonline.com/static/js/AppLayout.0ec11b34.chunk.js
+
+so we download a copy of this code and modify it
+
+after modification, upload the file to repo
+
+next, we use an extension/tool like Firefox Redirector https://einaregilsson.com/redirector/ to load our file instead of the one from the server
